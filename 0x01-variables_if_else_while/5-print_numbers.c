@@ -12,6 +12,7 @@ int main(void)
 		printf("%d", n);
 	}
 	/* inline comment*/
+	printf("\n");
 	return (0);
 }
 
