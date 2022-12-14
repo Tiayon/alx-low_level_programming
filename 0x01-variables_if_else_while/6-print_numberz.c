@@ -11,6 +11,7 @@ int main(void)
 	{
 		putchar(n);
 	}
+
 	putchar('\n');
 	/* code to print single digit numbers*/
 	return (0);
