@@ -13,10 +13,11 @@ int main(void)
 		putchar(n);
 	}
 
-	for (c= 'a'; c <= 'f'; c++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
 	}
 	/* inline comment*/
+	putchar('\n');
 	return (0);
 }
