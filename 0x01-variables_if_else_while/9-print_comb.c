@@ -11,8 +11,10 @@ int main(void)
 	{
 		putchar(n);
 		if (n <= '8')
+		{
 			putchar(',');
-		putchar(' ');
+			putchar(' ');
+		}
 	}
 	/* inline comment*/
 	putchar('\n');
