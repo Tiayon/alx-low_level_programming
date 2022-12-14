@@ -17,7 +17,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-	
 	putchar('\n');
 	/* program for the alphABET*/
 	return (0);
