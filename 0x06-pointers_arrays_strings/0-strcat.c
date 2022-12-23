@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_strcat -concatenates two strings
+ * *_strcat - concatenates two strings
  * @src: source string
  * @dest: destination string
  * return: pointer to the resulting string
@@ -10,7 +10,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
-
+	
 	i = 0;
 	while (dest[i] != '\0')
 	{
@@ -24,7 +24,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-		return (dest);
+	return (dest);
 }
 
 
